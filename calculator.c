@@ -1,11 +1,12 @@
+#include<stdio.h>
 #include "calculator.h"
 int main(){
-	int x,y,result;
+	int x,y;
 	printf("enter the value of the first number\n");
 	scanf ("%d",&x);
 	printf("enter the value of the second number\n");
 	scanf ("%d",&y);	
-	printf("the addition result ")
+	printf("the addition result is:%d \n the subtraction result is:%d \n the multiblication result is:%d \n the division result is:%d\n ",add(x,y),sub(x,y),mult(x,y),div(x,y),modulo(x,y));
 	
 	
 	
