@@ -8,3 +8,10 @@ int add(int a, int b)
 int sub(int x,int y){
 	return x-y;
 }
+
+int mult(int x, int y)
+{
+	int z = x*y;
+	return z;
+	
+}
